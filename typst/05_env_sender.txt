@@ -1,0 +1,81 @@
+Linux reginleif-rp 7.3.3-1-cachyos #1 SMP PREEMPT_DYNAMIC Sat, 07 Nov 2026 13:54:44 +0000 x86_64 GNU/Linux
+50: enp4s0f3u2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP mode DEFAULT group default qlen 1000
+    link/ether 02:00:00:00:00:01 brd ff:ff:ff:ff:ff:ff promiscuity 0 allmulti 0 minmtu 0 maxmtu 1500 addrgenmode none numtxqueues 1 numrxqueues 1 gso_max_size 65536 gso_max_segs 65535 tso_max_size 65536 tso_max_segs 65535 gro_max_size 65536 gso_ipv4_max_size 65536 gro_ipv4_max_size 65536 parentbus usb parentdev 1-2:1.0 
+    RX:  bytes packets errors dropped  missed   mcast           
+          2515      16      0       0       0       0 
+    TX:  bytes packets errors dropped carrier collsns           
+         10210      66      0       0       0       0 
+    altname enx020000000001
+Features for enp4s0f3u2:
+rx-checksumming: off [fixed]
+tx-checksumming: off
+	tx-checksum-ipv4: off [fixed]
+	tx-checksum-ip-generic: off [fixed]
+	tx-checksum-ipv6: off [fixed]
+	tx-checksum-fcoe-crc: off [fixed]
+	tx-checksum-sctp: off [fixed]
+scatter-gather: off
+	tx-scatter-gather: off [fixed]
+	tx-scatter-gather-fraglist: off [fixed]
+tcp-segmentation-offload: off
+	tx-tcp-segmentation: off [fixed]
+	tx-tcp-ecn-segmentation: off [fixed]
+	tx-tcp-mangleid-segmentation: off [fixed]
+	tx-tcp6-segmentation: off [fixed]
+	tx-tcp-accecn-segmentation: off [fixed]
+generic-segmentation-offload: off [requested on]
+generic-receive-offload: on
+large-receive-offload: off [fixed]
+rx-vlan-offload: off [fixed]
+tx-vlan-offload: off [fixed]
+ntuple-filters: off [fixed]
+receive-hashing: off [fixed]
+highdma: off [fixed]
+rx-vlan-filter: off [fixed]
+vlan-challenged: off [fixed]
+tx-gso-robust: off [fixed]
+tx-fcoe-segmentation: off [fixed]
+tx-gre-segmentation: off [fixed]
+tx-gre-csum-segmentation: off [fixed]
+tx-ipxip4-segmentation: off [fixed]
+tx-ipxip6-segmentation: off [fixed]
+tx-udp_tnl-segmentation: off [fixed]
+tx-udp_tnl-csum-segmentation: off [fixed]
+tx-gso-partial: off [fixed]
+tx-tunnel-remcsum-segmentation: off [fixed]
+tx-sctp-segmentation: off [fixed]
+tx-esp-segmentation: off [fixed]
+tx-udp-segmentation: off [fixed]
+tx-gso-list: off [fixed]
+tx-nocache-copy: off
+loopback: off [fixed]
+rx-fcs: off [fixed]
+rx-all: off [fixed]
+tx-vlan-stag-hw-insert: off [fixed]
+rx-vlan-stag-hw-parse: off [fixed]
+rx-vlan-stag-filter: off [fixed]
+l2-fwd-offload: off [fixed]
+hw-tc-offload: off [fixed]
+esp-hw-offload: off [fixed]
+esp-tx-csum-hw-offload: off [fixed]
+rx-udp_tunnel-port-offload: off [fixed]
+tls-hw-tx-offload: off [fixed]
+tls-hw-rx-offload: off [fixed]
+rx-gro-hw: off [fixed]
+rx-gro-list: off
+macsec-hw-offload: off [fixed]
+rx-udp-gro-forwarding: off
+hsr-tag-ins-offload: off [fixed]
+hsr-tag-rm-offload: off [fixed]
+hsr-fwd-offload: off [fixed]
+hsr-dup-offload: off [fixed]
+/:  Bus 001.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/4p, 480M
+    |__ Port 002: Dev 044, If 0, Class=Communications, Driver=cdc_ncm, 12M
+    |__ Port 002: Dev 044, If 1, Class=CDC Data, Driver=cdc_ncm, 12M
+/:  Bus 002.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/2p, 10000M
+/:  Bus 003.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/4p, 480M
+    |__ Port 002: Dev 002, If 0, Class=Wireless, Driver=btusb, 12M
+    |__ Port 002: Dev 002, If 1, Class=Wireless, Driver=btusb, 12M
+    |__ Port 004: Dev 003, If 0, Class=Video, Driver=uvcvideo, 480M
+    |__ Port 004: Dev 003, If 1, Class=Video, Driver=uvcvideo, 480M
+/:  Bus 004.Port 001: Dev 001, Class=root_hub, Driver=xhci_hcd/2p, 10000M

@@ -1,0 +1,5 @@
+esp-idf/
+
+**/build
+**/.cache
+**/managed_components

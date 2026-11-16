@@ -1,0 +1,222 @@
+=== TEST UDP: 50K ===
+Connecting to host 10.0.0.2, port 5201
+[  4] local 10.0.0.1 port 39817 connected to 10.0.0.2 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  4]   0.00-1.00   sec  6.25 KBytes  51.1 Kbits/sec  16  
+[  4]   1.00-2.00   sec  6.25 KBytes  51.2 Kbits/sec  16  
+[  4]   2.00-3.00   sec  5.08 KBytes  41.6 Kbits/sec  13  
+[  4]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec  0  
+[  4]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec  0  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  4]   0.00-5.00   sec  17.6 KBytes  28.8 Kbits/sec  0.000 ms  0/45 (0%)  sender
+[  4]   0.00-5.01   sec  15.2 KBytes  24.9 Kbits/sec  0.071 ms  0/39 (0%)  receiver
+
+Server output:
+Accepted connection from 10.0.0.1, port 53526
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 39817
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-1.00   sec  6.25 KBytes  51.1 Kbits/sec  0.061 ms  0/16 (0%)  
+[  5]   1.00-2.00   sec  6.25 KBytes  51.2 Kbits/sec  0.087 ms  0/16 (0%)  
+[  5]   2.00-3.00   sec  2.73 KBytes  22.4 Kbits/sec  0.071 ms  0/7 (0%)  
+[  5]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec  0.071 ms  0/0 (0%)  
+[  5]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec  0.071 ms  0/0 (0%)  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-5.01   sec  15.2 KBytes  24.9 Kbits/sec  0.071 ms  0/39 (0%)  receiver
+
+
+iperf Done.
+=== TEST UDP: 100K ===
+Connecting to host 10.0.0.2, port 5201
+[  4] local 10.0.0.1 port 52902 connected to 10.0.0.2 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  4]   0.00-1.00   sec  12.5 KBytes   102 Kbits/sec  32  
+[  4]   1.00-2.00   sec  12.1 KBytes  99.2 Kbits/sec  31  
+[  4]   2.00-3.00   sec  12.1 KBytes  99.2 Kbits/sec  31  
+[  4]   3.00-4.00   sec  12.5 KBytes   102 Kbits/sec  32  
+[  4]   4.00-5.00   sec  12.1 KBytes  99.1 Kbits/sec  31  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  4]   0.00-5.00   sec  61.3 KBytes   100 Kbits/sec  0.000 ms  0/157 (0%)  sender
+[  4]   0.00-5.01   sec  61.3 KBytes   100 Kbits/sec  0.561 ms  0/157 (0%)  receiver
+
+Server output:
+-----------------------------------------------------------
+Server listening on 5201 (test #2)
+-----------------------------------------------------------
+Accepted connection from 10.0.0.1, port 53532
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 52902
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-1.00   sec  12.1 KBytes  99.2 Kbits/sec  0.698 ms  0/31 (0%)  
+[  5]   1.00-2.00   sec  12.5 KBytes   102 Kbits/sec  0.504 ms  0/32 (0%)  
+[  5]   2.00-3.00   sec  12.1 KBytes  99.3 Kbits/sec  0.663 ms  0/31 (0%)  
+[  5]   3.00-4.00   sec  12.1 KBytes  99.1 Kbits/sec  0.752 ms  0/31 (0%)  
+[  5]   4.00-5.00   sec  12.1 KBytes  99.2 Kbits/sec  0.598 ms  0/31 (0%)  
+[  5]   5.00-5.01   sec   400 Bytes   408 Kbits/sec  0.561 ms  0/1 (0%)  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-5.01   sec  61.3 KBytes   100 Kbits/sec  0.561 ms  0/157 (0%)  receiver
+
+
+iperf Done.
+=== TEST UDP: 150K ===
+Connecting to host 10.0.0.2, port 5201
+[  4] local 10.0.0.1 port 51213 connected to 10.0.0.2 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  4]   0.00-1.00   sec  6.64 KBytes  54.4 Kbits/sec  17  
+[  4]   1.00-2.00   sec  0.00 Bytes  0.00 bits/sec  0  
+[  4]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec  0  
+[  4]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec  0  
+[  4]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec  0  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  4]   0.00-5.00   sec  6.64 KBytes  10.9 Kbits/sec  0.000 ms  0/17 (0%)  sender
+[  4]   0.00-5.01   sec  0.00 Bytes  0.00 bits/sec  0.000 ms  0/0 (0%)  receiver
+
+Server output:
+-----------------------------------------------------------
+Server listening on 5201 (test #3)
+-----------------------------------------------------------
+Accepted connection from 10.0.0.1, port 33422
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 51213
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-1.00   sec  0.00 Bytes  0.00 bits/sec  0.000 ms  0/0 (0%)  
+[  5]   1.00-2.00   sec  0.00 Bytes  0.00 bits/sec  0.000 ms  0/0 (0%)  
+[  5]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec  0.000 ms  0/0 (0%)  
+[  5]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec  0.000 ms  0/0 (0%)  
+[  5]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec  0.000 ms  0/0 (0%)  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-5.01   sec  0.00 Bytes  0.00 bits/sec  0.000 ms  0/0 (0%)  receiver
+
+
+iperf Done.
+=== TEST UDP: 250K ===
+Connecting to host 10.0.0.2, port 5201
+[  4] local 10.0.0.1 port 44136 connected to 10.0.0.2 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  4]   0.00-1.00   sec  23.4 KBytes   192 Kbits/sec  60  
+[  4]   1.00-2.00   sec  0.00 Bytes  0.00 bits/sec  0  
+[  4]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec  0  
+[  4]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec  0  
+[  4]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec  0  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  4]   0.00-5.00   sec  23.4 KBytes  38.4 Kbits/sec  0.000 ms  0/60 (0%)  sender
+[  4]   0.00-5.01   sec  12.5 KBytes  20.4 Kbits/sec  0.987 ms  0/32 (0%)  receiver
+
+Server output:
+-----------------------------------------------------------
+Server listening on 5201 (test #4)
+-----------------------------------------------------------
+Accepted connection from 10.0.0.1, port 33428
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 44136
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-1.00   sec  12.5 KBytes   102 Kbits/sec  0.987 ms  0/32 (0%)  
+[  5]   1.00-2.00   sec  0.00 Bytes  0.00 bits/sec  0.987 ms  0/0 (0%)  
+[  5]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec  0.987 ms  0/0 (0%)  
+[  5]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec  0.987 ms  0/0 (0%)  
+[  5]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec  0.987 ms  0/0 (0%)  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-5.01   sec  12.5 KBytes  20.4 Kbits/sec  0.987 ms  0/32 (0%)  receiver
+
+
+iperf Done.
+=== TEST UDP: 500K ===
+Connecting to host 10.0.0.2, port 5201
+[  4] local 10.0.0.1 port 58068 connected to 10.0.0.2 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  4]   0.00-1.00   sec  61.3 KBytes   502 Kbits/sec  157  
+[  4]   1.00-2.00   sec  11.7 KBytes  96.0 Kbits/sec  30  
+[  4]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec  0  
+[  4]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec  0  
+[  4]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec  0  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  4]   0.00-5.00   sec  73.0 KBytes   120 Kbits/sec  0.000 ms  0/187 (0%)  sender
+[  4]   0.00-5.01   sec  48.8 KBytes  79.8 Kbits/sec  0.296 ms  0/125 (0%)  receiver
+
+Server output:
+-----------------------------------------------------------
+Server listening on 5201 (test #5)
+-----------------------------------------------------------
+Accepted connection from 10.0.0.1, port 38182
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 58068
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-1.00   sec  48.8 KBytes   400 Kbits/sec  0.296 ms  0/125 (0%)  
+[  5]   1.00-2.00   sec  0.00 Bytes  0.00 bits/sec  0.296 ms  0/0 (0%)  
+[  5]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec  0.296 ms  0/0 (0%)  
+[  5]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec  0.296 ms  0/0 (0%)  
+[  5]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec  0.296 ms  0/0 (0%)  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-5.01   sec  48.8 KBytes  79.8 Kbits/sec  0.296 ms  0/125 (0%)  receiver
+
+
+iperf Done.
+=== TEST UDP: 1M ===
+Connecting to host 10.0.0.2, port 5201
+[  4] local 10.0.0.1 port 57361 connected to 10.0.0.2 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  4]   0.00-1.00   sec   122 KBytes  1.00 Mbits/sec  313  
+[  4]   1.00-2.00   sec  80.9 KBytes   662 Kbits/sec  208  
+[  4]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec  -1  
+[  4]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec  0  
+[  4]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec  0  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  4]   0.00-5.00   sec   203 KBytes   333 Kbits/sec  0.000 ms  0/520 (0%)  sender
+[  4]   0.00-5.01   sec   114 KBytes   187 Kbits/sec  3.599 ms  49/342 (14%)  receiver
+
+Server output:
+-----------------------------------------------------------
+Server listening on 5201 (test #6)
+-----------------------------------------------------------
+Accepted connection from 10.0.0.1, port 38198
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 57361
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-1.00   sec  57.4 KBytes   470 Kbits/sec  2.969 ms  5/152 (3.3%)  
+[  5]   1.00-2.00   sec  57.0 KBytes   467 Kbits/sec  3.599 ms  44/190 (23%)  
+[  5]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec  3.599 ms  0/0 (0%)  
+[  5]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec  3.599 ms  0/0 (0%)  
+[  5]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec  3.599 ms  0/0 (0%)  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-5.01   sec   114 KBytes   187 Kbits/sec  3.599 ms  49/342 (14%)  receiver
+
+
+iperf Done.
+=== TEST UDP: 2M ===
+Connecting to host 10.0.0.2, port 5201
+[  4] local 10.0.0.1 port 51735 connected to 10.0.0.2 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  4]   0.00-1.00   sec   113 KBytes   924 Kbits/sec  289  
+[  4]   1.00-2.00   sec  0.00 Bytes  0.00 bits/sec  0  
+[  4]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec  0  
+[  4]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec  0  
+[  4]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec  0  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  4]   0.00-5.00   sec   113 KBytes   185 Kbits/sec  0.000 ms  0/289 (0%)  sender
+[  4]   0.00-5.01   sec  36.7 KBytes  60.0 Kbits/sec  4.562 ms  3/97 (3.1%)  receiver
+
+Server output:
+-----------------------------------------------------------
+Server listening on 5201 (test #7)
+-----------------------------------------------------------
+Accepted connection from 10.0.0.1, port 42680
+[  5] local 10.0.0.2 port 5201 connected to 10.0.0.1 port 51735
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-1.00   sec  36.7 KBytes   300 Kbits/sec  4.562 ms  3/97 (3.1%)  
+[  5]   1.00-2.00   sec  0.00 Bytes  0.00 bits/sec  4.562 ms  0/0 (0%)  
+[  5]   2.00-3.00   sec  0.00 Bytes  0.00 bits/sec  4.562 ms  0/0 (0%)  
+[  5]   3.00-4.00   sec  0.00 Bytes  0.00 bits/sec  4.562 ms  0/0 (0%)  
+[  5]   4.00-5.00   sec  0.00 Bytes  0.00 bits/sec  4.562 ms  0/0 (0%)  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-5.01   sec  36.7 KBytes  60.0 Kbits/sec  4.562 ms  3/97 (3.1%)  receiver
+
+
+iperf Done.
